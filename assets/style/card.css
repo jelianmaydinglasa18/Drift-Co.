@@ -1,0 +1,25 @@
+.card {
+    display: grid;
+    min-width: 24px;
+    margin-bottom: 16px;    
+    overflow: hidden;
+  }
+  
+  .card-header{
+    padding: 0;
+    margin-left: 5px;
+    margin-right: 2rem;
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(300px, 2fr));
+    grid-gap: 2rem;
+  }
+
+  .card-header img {
+    width: 50%;
+    display: flex;
+    flex-basis: 25%;
+    min-height: 250px;
+  }
+  
+  

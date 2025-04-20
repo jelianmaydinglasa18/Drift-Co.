@@ -3,9 +3,10 @@
   }
   
   .logo{
-      font-size: 30px;
+      font-size: 24px;
       color: #ece9e9;
       font-weight: bolder;
+
   }
   
   .logo span{
@@ -18,7 +19,7 @@
       left: 0;
       right: 0;
       background: #1a1818;
-      padding: 16px ;
+      padding: 24px ;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -27,32 +28,23 @@
   
   .nav-links{
       display: flex;
-      gap: 16px;
+      gap: 24px;
   }
   
   .nav-links a{
       font-size: 20px;
-      padding: 14px;
-      color: #dacbcb;
+      padding: 10px;
+      color: #ffffff;
   }
   
   .nav-links a:hover{
-      color:var(--#383535);
+      color:var(--#2b2929);
   }
   
   .nav-links li{
       list-style: none;
   }
   
-  .icons a{
-      font-size: 24px;
-      color: #e7d9d9;
-      margin-left: 24px;
-  }
-  
-  .icons a:hover{
-      color: var(--#181818);
-  }
   
   .menu-toggle{
      display: none; 
@@ -68,6 +60,10 @@
       display: none;
   }
   
+
+  .header .row{
+    margin-top: 70px;
+  }  
     /*media queries */
   @media (max-width: 991px){
   
@@ -107,7 +103,7 @@
   
   .nav-links a{
       margin: 24px;
-      padding: 24px;
+      padding: px;
       background: #fffefe;
       border:16px solid rgb(3, 2, 2);
       display: block;
